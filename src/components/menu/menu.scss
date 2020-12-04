@@ -1,0 +1,32 @@
+.App {
+  &__menu {
+    position: relative;
+    padding: 4px 4px 0 4px;
+    color: rgb(25, 25, 73);
+
+    &-list {
+      position: relative;
+      top: -22px;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px 10px 0 10px;
+    }
+
+    &-header {
+      font-size: 14px;
+      padding: 10px 10px 0 10px;
+
+      p {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      &-option1 {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 6px;
+        border-bottom: 3px solid black;
+      }
+    }
+  }
+}

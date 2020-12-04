@@ -1,0 +1,15 @@
+.App {
+  background-color: #ddd;
+  position: relative;
+
+  &__page-container {
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  &__image {
+    width: 100%;
+    position: relative;
+  }
+}

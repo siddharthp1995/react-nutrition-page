@@ -1,0 +1,21 @@
+.App {
+  &__footer {
+    padding: 0px 8px;
+    color: rgb(25, 25, 73);
+
+    &-title {
+      margin: 0;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      color: rgb(0, 104, 61);
+    }
+
+    &-content {
+      font-size: 12px;
+      padding: 8px;
+      border-top: 3px solid black;
+      border-bottom: 3px solid black;
+      padding-bottom: 30px;
+    }
+  }
+}
